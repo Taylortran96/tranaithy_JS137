@@ -1,0 +1,54 @@
+:root{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body{
+    padding: 100px;
+}
+.title{
+    width: 91px;
+    height: 40px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #151B32;
+    padding: 100px;
+}
+
+.top-wrapper{
+    border: 3px solid black;
+    padding-top: 20px;
+    padding
+    display: flex;
+    
+}
+
+.search-icon{
+    width: 32px;
+    height: 32px;
+    
+}
+.search-input{
+    flex: 1;
+    border:none;
+    font-size: 16px;
+}
+.menu-wrapper{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.Link{
+    border: 1px solid black;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-container{
+
+}
+.favourites{
+
+}
+
