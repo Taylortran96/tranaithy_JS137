@@ -1,10 +1,7 @@
 :root{
-    margin:0;
-    padding:0;
     box-sizing: border-box;
-}
-.body{
-    padding: 100px;
+    weight:0;
+    height: 0;
 }
 .title{
     width: 91px;
@@ -14,41 +11,123 @@
     font-size: 32px;
     line-height: 40px;
     color: #151B32;
-    padding: 100px;
+    margin: 100px 0 24px 100px;
+    display: block;
 }
-
 .top-wrapper{
-    border: 3px solid black;
-    padding-top: 20px;
-    padding
+    margin-left: 100px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-wrapper{
+    width: 327px;
+    height: 64px;
+    border: 1px solid rgba(191, 200, 229, 1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
     
 }
-
 .search-icon{
     width: 32px;
     height: 32px;
-    
+    margin-right: 8px;
 }
 .search-input{
-    flex: 1;
-    border:none;
-    font-size: 16px;
+    font-family: 'Poppins';
+    font-size: 16px;      
+    border: none;
+    flex: 1; /*cho phần input chiếm hết khung còn lại*/
 }
-.menu-wrapper{
-    border: 1px solid black;
-    border-radius: 2px;
-}
-.Link{
-    border: 1px solid black;
-    border-radius: 2px;
+.button-wrapper{
+    width: 534px;
+    height: 56px;
+    border-radius: 4px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    border: none;
+    margin-left: 152px;
+}
+.link{  
+    font-size: 16px;
+    padding: 16px;
+    
+}
+.link-index{
+    background-color: rgba(132, 159, 255, 1);
+    border-radius: 8px;
+    color:white;
+}
+.bottom-wrapper{
+    width: auto;
+    height: 208px;
+    margin: 100px 100px 0 100px;
+    border: 2px solid red;
+    background-color: #FBFCFF;
+    display:flex;
+    flex-direction: row;
     justify-content: space-between;
 }
-.bottom-container{
+.card-wrapper{
+    height: auto;
+    Width: fit-content;
+    border: 2px solid black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.avatar{
+    width: 97px;
+    height: 97px;
+    margin-right: 16px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.name-wrapper{
+    margin-right: 65px
+}
+.identity{
+    padding-top: 20px;
 
 }
-.favourites{
+.full-name{
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    color: #151B32;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+.address{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 4px;
+    color: #151B32;
+    
+}
+.item-wrapper{
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    width: 112px;
+    height: 22px;
+}   
+.item{
+    height: 22px;
+    width: fit-content;
+    padding: 2px, 8px;
+    border: 1px solid#BFC8E6;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #516FD5;
 
 }
-
