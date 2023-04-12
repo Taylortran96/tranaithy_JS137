@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #1C233D;
+
+}
+
+/*Top*/
+.top-container{
+    color:#E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.brand{
+    width: 108px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 15px 0 91px 72px;
+}
+.title-wrapper{
+    display: flex;
+}
+.tag{
+    width: auto;
+    height: 18px;  
+    font-size: 14px; 
+    margin: 23px 26px 97px 38px;
+}
+.search-wrapper{
+    width: 242px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 18px 30px 97px 35px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+}
+.input-box{
+    background-color: white;
+}
+.search-icon{
+    width: 5px;
+    height: 10px;
+
+}
+.button{
+    width: 93px;
+    height: 30px;
+    margin: 18px 75px 97px 0;
+    background-color: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+}
+
+/*Middle*/
+.middle-container{
+    margin-left: 62px;
+
+}
+/* Left*/
+.left-container{
+
+}
+.logan{
+
+}
+.click-button{
+
+}
+
+.left-participants{
+
+}
+
+.left-count{
+
+}
+/* Right*/
+.right-container{
+
+}
+.money-image{
+
+}
+.money-account{
+
+}
+.account-image{
+
+}
+.right-participants{
+    font-family: DM Mono;
+}
+.right-count{
+
+}
+.current-bid{
+
+}
+.time-count{
+
+}
+
+/*Bottom*/
+.bottom-container{
+
+}
+.logo{
+
+}
